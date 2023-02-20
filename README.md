@@ -1,3 +1,5 @@
 # Data fitting with a spline using genetic algorithm
-Implemenation of the work of Yoshimoto et al. 2003  
-https://www.sciencedirect.com/science/article/pii/S001044850300006X
+Python implemenation of the work in Yoshimoto et al. 2003  
+https://www.sciencedirect.com/science/article/pii/S001044850300006X \
+Abstract
+> To obtain a good approximation for data fitting with a spline, frequently we have to deal with knots as variables. The problem to be solved then becomes a continuous nonlinear and multivariate optimization problem with many local optima. Therefore, it is difficult to obtain the global optimum. In this paper, we propose a method for solving this problem by using a real-coded genetic algorithm. Our method can treat not only data with a smooth underlying function, but also data with an underlying function having discontinuous points and/or cusps. We search for the best model among candidate models by using the Bayes Information Criterion (BIC). With this, we can appropriately determine the number and locations of knots automatically and simultaneously. Five examples of data fitting are given to show the performance of our method.
